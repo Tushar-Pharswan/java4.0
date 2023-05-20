@@ -7,8 +7,8 @@ public class basic {
         System.out.println(new_1);
         double new_2 =a;
         System.out.println(new_2);
-        float new_3 =a;
-        System.out.println(new_3);
+        // float new_3 =a;
+        // System.out.println(new_3);
 
 
 

@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class input_10_no_sum {
     public static void main(String[] args) {
         System.out.println("enter the 10 no.");
-        Scanner no=new Scanner(System.in);
-
+        Scanner no = new Scanner(System.in);
 
         // System.out.println("First no.");
         // int n1=no.nextInt();
@@ -28,21 +27,18 @@ public class input_10_no_sum {
         // int n9=no.nextInt();
         // System.out.println("Tenth no.");
         // int n10=no.nextInt();
-        
-        int sum=0;
 
-        for(int i =1;i<=10; i++){
+        int sum = 0;
+
+        for (int i = 1; i <= 10; i++) {
             int n = no.nextInt();
-            System.out.println(i+ " number is "+n);
-            sum = sum+n;
+            System.out.println(i + " number is " + n);
+            sum = sum + n;
         }
-        System.out.println("Sum = " +sum);
-        int avg = sum/10;
-        System.out.println("Average is " +avg); 
-
-        
-
+        System.out.println("Sum = " + sum);
+        int avg = sum / 10;
+        System.out.println("Average is " + avg);
 
     }
-    
+
 }

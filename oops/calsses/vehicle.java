@@ -1,6 +1,6 @@
 package oops.calsses;
 
-public class vehicle {
+public class vehicle {//parent class
 
     boolean start() {
         return false;
@@ -23,7 +23,7 @@ public class vehicle {
             return a+10;
         }
 
-        int wheelCount(int a) {
+         int wheelCount(int a) {
             return a;
         }
 
@@ -34,17 +34,19 @@ public class vehicle {
             return check;
         }
 
-        int speed(int a) {
+         int speed(int a) {
             if (start()==true) {
                 return a+5;
             } else
             System.out.println("bike cant start ");
-                return -1;
+                 return -1;
         }
 
         int wheelCount(int a) {
             return a;
         }
+
+        int j;
     }
 
     public static void main(String[] args) {

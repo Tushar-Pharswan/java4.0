@@ -43,6 +43,7 @@ public class game {
         a1.drive();
         a1.pilot();
         c1.pilot();
+        c1.shoot();
         t1.shoot();
         
     }

@@ -1,6 +1,6 @@
 package oops.calsses;
 
-public class game {
+public class game_inheritence {
     void run() {
 
     }
@@ -12,7 +12,7 @@ public class game {
 
     }
 
-    static class amit extends game{
+    static class amit extends game_inheritence{
         void drive(){
             System.out.println("Best driver ");
         }
@@ -23,7 +23,7 @@ public class game {
             System.out.println(" Amit is pro shooter ");
         }
     }
-    static class chiki extends game{
+    static class chiki extends game_inheritence{
         void pilot(){
             System.out.println("avg pilot ");
         }
@@ -31,7 +31,7 @@ public class game {
             System.out.println("chikki is a noob shooter ");
         }   
     }
-    static class tushar extends game{
+    static class tushar extends game_inheritence{
         void planer(){
             System.out.println("heist planner ");
         }

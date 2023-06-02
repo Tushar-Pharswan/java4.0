@@ -1,9 +1,7 @@
-package test2;
-
-import test1.*;
+package oops.calsses.test2;
+import oops.calsses.test1.*;
 
 public class accessing_test1 extends outside_subclass {
-
     public static void main(String[] args) {
         outside_subclass R1 = new outside_subclass();
 
@@ -13,5 +11,5 @@ public class accessing_test1 extends outside_subclass {
         System.out.println(a1.registration_no);
 
     }
-
+    
 }

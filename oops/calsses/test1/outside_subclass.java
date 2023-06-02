@@ -1,4 +1,4 @@
-package test1;
+package oops.calsses.test1;
 
 public class outside_subclass {
     protected int registration_no=1010;
@@ -8,10 +8,10 @@ public class outside_subclass {
         // System.out.println(s1.chessi_no);
         
     }
-
+    
 }
- class second{
-    private  int chessi_no;
+class second{
+    private  int chessi_no=2020;
     public static void main(String[] args) {
         second s1 =new second();
         System.out.println(s1.chessi_no);

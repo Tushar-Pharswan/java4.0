@@ -12,6 +12,7 @@ public class constructor {
         int c=a*b;
         System.out.println(c);
     }
+    public int data = 45;
     public static void main(String[] args) {
         constructor c =new constructor();
         constructor c2 =new constructor(2);

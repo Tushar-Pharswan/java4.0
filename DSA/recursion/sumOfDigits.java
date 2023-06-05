@@ -20,15 +20,15 @@ public class sumOfDigits {
             return 1;
         }
         count++;
-        num = num / 10;
 
-        return noOfDigits(num);
+        return noOfDigits(num / 10);
 
     }
 
     public static void main(String[] args) {
-        System.out.println(digit(1234));
+        digit(1234);
         System.out.println(sum);
+        noOfDigits(1234);
         System.out.println(count);
 
     }

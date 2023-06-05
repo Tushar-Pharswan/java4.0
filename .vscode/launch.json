@@ -1,0 +1,308 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "reverse",
+            "request": "launch",
+            "mainClass": "DSA.Array.reverse",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "sumOfDigits",
+            "request": "launch",
+            "mainClass": "DSA.recursion.sumOfDigits",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "add",
+            "request": "launch",
+            "mainClass": "array.add",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "addHalfFront",
+            "request": "launch",
+            "mainClass": "array.addHalfFront",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "array_index",
+            "request": "launch",
+            "mainClass": "array.array_index",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "customAdd",
+            "request": "launch",
+            "mainClass": "array.customAdd",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "add(1)",
+            "request": "launch",
+            "mainClass": "array.multi.add",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "matrix",
+            "request": "launch",
+            "mainClass": "array.multi.matrix",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "Linked_list",
+            "request": "launch",
+            "mainClass": "collection_framework.Linked_list",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "arraylist",
+            "request": "launch",
+            "mainClass": "collection_framework.arraylist",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "queue",
+            "request": "launch",
+            "mainClass": "collection_framework.queue",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "stack",
+            "request": "launch",
+            "mainClass": "collection_framework.stack",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "vector",
+            "request": "launch",
+            "mainClass": "collection_framework.vector",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "Cube_of_n_no",
+            "request": "launch",
+            "mainClass": "loops.Cube_of_n_no",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "basic",
+            "request": "launch",
+            "mainClass": "loops.basic",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "first_10_Natural_No",
+            "request": "launch",
+            "mainClass": "loops.first_10_Natural_No",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "input_10_no_sum",
+            "request": "launch",
+            "mainClass": "loops.input_10_no_sum",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "loop",
+            "request": "launch",
+            "mainClass": "loops.loop",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "multiplier_vertical",
+            "request": "launch",
+            "mainClass": "loops.multiplier_vertical",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "n_no_sum",
+            "request": "launch",
+            "mainClass": "loops.n_no_sum",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "n_odd_sum",
+            "request": "launch",
+            "mainClass": "loops.n_odd_sum",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "L_1_22_333",
+            "request": "launch",
+            "mainClass": "loops.pattern.L_1_22_333",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "L_1_23_456_789",
+            "request": "launch",
+            "mainClass": "loops.pattern.L_1_23_456_789",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "L_astric",
+            "request": "launch",
+            "mainClass": "loops.pattern.L_astric",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "L_no",
+            "request": "launch",
+            "mainClass": "loops.pattern.L_no",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "triangle",
+            "request": "launch",
+            "mainClass": "loops.pattern.triangle",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "sum_natural_no",
+            "request": "launch",
+            "mainClass": "loops.sum_natural_no",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "sum_of_num",
+            "request": "launch",
+            "mainClass": "loops.sum_of_num",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "add(2)",
+            "request": "launch",
+            "mainClass": "method.add",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "no_avg",
+            "request": "launch",
+            "mainClass": "method.no_avg",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "overload",
+            "request": "launch",
+            "mainClass": "method.overload",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "smallest_no",
+            "request": "launch",
+            "mainClass": "method.smallest_no",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "constructor(function Object() { [native code] }1)",
+            "request": "launch",
+            "mainClass": "oops.calsses.constructor",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "encapsulation",
+            "request": "launch",
+            "mainClass": "oops.calsses.encapsulation",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "game_inheritence",
+            "request": "launch",
+            "mainClass": "oops.calsses.game_inheritence",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "outside_subclass",
+            "request": "launch",
+            "mainClass": "oops.calsses.test1.outside_subclass",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "second",
+            "request": "launch",
+            "mainClass": "oops.calsses.test1.second",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "accessing_test1",
+            "request": "launch",
+            "mainClass": "oops.calsses.test2.accessing_test1",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "vehicle",
+            "request": "launch",
+            "mainClass": "oops.calsses.vehicle",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "char_charAt_int_index",
+            "request": "launch",
+            "mainClass": "string.char_charAt_int_index",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "int_length",
+            "request": "launch",
+            "mainClass": "string.int_length",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "types",
+            "request": "launch",
+            "mainClass": "string.types",
+            "projectName": "java4.0_4a137fa8"
+        }
+    ]
+}

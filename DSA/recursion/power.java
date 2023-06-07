@@ -1,6 +1,12 @@
 package DSA.recursion;
 
 public class power {
+    //recursion
+
+    static int pow2(int num,int num2){
+      
+
+    }
 
     //loop 
     static int pow(int num,int num2){
@@ -12,7 +18,8 @@ public class power {
         return ans;
     }
     public static void main(String[] args) {
-        System.out.println(pow(2, 5));
+        System.out.println("by loop "+pow(2, 5));
+        System.out.println("by Recusrion "+pow2(2, 5));
     }
     
 }

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "array_aabbcc",
+            "request": "launch",
+            "mainClass": "DSA.recursion.array_aabbcc",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
             "name": "arrayOcurenceReplace",
             "request": "launch",
             "mainClass": "DSA.recursion.arrayOcurenceReplace",

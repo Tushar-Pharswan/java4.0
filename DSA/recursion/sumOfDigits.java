@@ -32,4 +32,4 @@ public class sumOfDigits {
         System.out.println(count);
 
     }
-}
+}-

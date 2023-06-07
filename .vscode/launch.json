@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "palindrome",
+            "request": "launch",
+            "mainClass": "DSA.recursion.palindrome",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
             "name": "Armstrong",
             "request": "launch",
             "mainClass": "DSA.recursion.Armstrong",

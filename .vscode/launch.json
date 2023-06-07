@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "arrayocurence",
+            "request": "launch",
+            "mainClass": "DSA.recursion.arrayocurence",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
             "name": "ArrayFromLast",
             "request": "launch",
             "mainClass": "DSA.recursion.ArrayFromLast",

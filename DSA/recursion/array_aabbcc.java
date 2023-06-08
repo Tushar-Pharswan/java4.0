@@ -10,7 +10,6 @@ public class array_aabbcc {
         }
         String copString = String.copyValueOf(arr);
         System.out.println(copString);
-
-    }
+     }
 
 }

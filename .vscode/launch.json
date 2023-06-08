@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Q4",
+            "request": "launch",
+            "mainClass": "DSA.recursion.Q4",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "Sum_n_NaturalNo",
+            "request": "launch",
+            "mainClass": "DSA.recursion.Sum_n_NaturalNo",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "countOccurance",
+            "request": "launch",
+            "mainClass": "DSA.recursion.countOccurance",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "DSA.recursion.factorial",
+            "projectName": "java4.0_4a137fa8"
+        },
+        {
+            "type": "java",
             "name": "power",
             "request": "launch",
             "mainClass": "DSA.recursion.power",

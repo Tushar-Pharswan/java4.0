@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ocurencesIndexToNewArr",
+            "request": "launch",
+            "mainClass": "DSA.recursion.ocurencesIndexToNewArr",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
+            "name": "arrayocurence",
+            "request": "launch",
+            "mainClass": "DSA.recursion.arrayocurence",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
+            "name": "array_aabbcc",
+            "request": "launch",
+            "mainClass": "DSA.recursion.array_aabbcc",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
+            "name": "prime",
+            "request": "launch",
+            "mainClass": "DSA.recursion.prime",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
             "name": "Armstrong",
             "request": "launch",
             "mainClass": "DSA.recursion.Armstrong",

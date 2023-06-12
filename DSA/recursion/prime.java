@@ -5,12 +5,12 @@ public class prime {
 
     static void number2(int num, int i) {
         if(i==num){
-            //System.out.println("number is prime ");
+            System.out.println("number is prime ");
             System.out.print(num+" ");
             return;
         }
         if(num%i == 0){
-            //System.out.println("number is not prime ");
+            System.out.println("number is not prime ");
             return ;
         }
 
@@ -36,9 +36,9 @@ public class prime {
 
     public static void main(String[] args) {
         number(10);
-        //number2(17, 2);
-        for(int i =2; i<500; i++){
-            number2(i, 2);
-        }
+        number2(4, 2);
+        // for(int i =2; i<500; i++){
+        //     number2(i, 2);
+        // }
     }
 }

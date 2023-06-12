@@ -4,7 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "Armstrong",
+            "request": "launch",
+            "mainClass": "DSA.recursion.Armstrong",
+            "projectName": "java4.0_f95a0369"
+        },
         {
             "type": "java",
             "name": "prime",

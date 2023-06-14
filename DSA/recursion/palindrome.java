@@ -1,7 +1,5 @@
 package DSA.recursion;
 
-import string.char_charAt_int_index;
-
 public class palindrome {
 
     //recursion

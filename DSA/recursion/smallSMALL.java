@@ -2,12 +2,7 @@ package DSA.recursion;
 
 public class smallSMALL {
 
-    // static char[] convert() {
-    //     char charmessage[] = new char[] { 'a','b' };
-    //     int counter = 0;
-    //     for(int i=0;i<charmessage.length-1;i++){
-    //     charmessage
-    // }
+    
 
     
 
@@ -15,7 +10,7 @@ public class smallSMALL {
 
         //System.out.println(convert());
 
-        String a = "abcbcGGh";
+        String a[] =new String[] {"foo"};
         System.out.println(a.toUpperCase());
     }
 

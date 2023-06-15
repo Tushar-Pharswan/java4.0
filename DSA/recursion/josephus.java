@@ -26,7 +26,7 @@ public class josephus {
             vec.add(i);
         }
         // System.out.println(vec);
-        k--;
+        k=k-1;
         int index=0;
         int ans=-1;
         solve(vec, k, index, ans);

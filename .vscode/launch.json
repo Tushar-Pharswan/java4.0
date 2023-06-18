@@ -9,7 +9,7 @@
             "name": "josephus",
             "request": "launch",
             "mainClass": "DSA.recursion.josephus",
-            "projectName": "java4.0_f95a0369"
+            "projectName": "java4.0_db3cb72"
         },
         {
             "type": "java",

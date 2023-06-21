@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "nqueen",
+            "request": "launch",
+            "mainClass": "DSA.backtracking.nqueen",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
             "name": "josephus",
             "request": "launch",
             "mainClass": "DSA.recursion.josephus",

@@ -6,17 +6,21 @@ public class nqueen {
 
     static boolean isSafe(boolean board[][], int row, int col) {
 
+        //queen up check
+
         for (int i = row; i >= 0; i--) {
             if (board[i][col] == true) {
                 return false;
             }
         }
+        //diagonal left
 
         for (int i = row, j = col; i >= 0 && j >= 0; i--, j--) {
             if (board[i][j] == true) {
                 return false;
             }
         }
+        //diagonal right
 
         for (int i = row, j = col; i >= 0 && j < board[row].length; i--, j++) {
             if (board[i][j] == true) {

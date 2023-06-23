@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "rough",
+            "request": "launch",
+            "mainClass": "DSA.backtracking.rough",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
             "name": "powerOf3n",
             "request": "launch",
             "mainClass": "DSA.recursion.powerOf3n",

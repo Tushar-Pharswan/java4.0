@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "mazeBasic",
+            "request": "launch",
+            "mainClass": "DSA.backtracking.mazeBasic",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
             "name": "maze",
             "request": "launch",
             "mainClass": "DSA.backtracking.maze",

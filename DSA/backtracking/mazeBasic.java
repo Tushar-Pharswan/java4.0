@@ -1,6 +1,6 @@
 package DSA.backtracking;
 
-public class rough {
+public class mazeBasic {
     static void rat(int maze[][], int right, int down, String ans) {
         if (right == maze.length - 1 && down == maze.length-1) {
             System.out.println(ans);

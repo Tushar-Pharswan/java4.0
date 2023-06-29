@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "basic",
+            "request": "launch",
+            "mainClass": "loops.basic",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
+            "name": "triangle",
+            "request": "launch",
+            "mainClass": "loops.pattern.triangle",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
             "name": "reverse",
             "request": "launch",
             "mainClass": "DSA.backtracking.reverse",

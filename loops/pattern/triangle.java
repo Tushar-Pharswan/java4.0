@@ -1,4 +1,5 @@
 package loops.pattern;
+//not complete
 
 public class triangle {
     public static void main(String[] args) {

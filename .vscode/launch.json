@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "barChart",
+            "request": "launch",
+            "mainClass": "DSA.array.barChart",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
             "name": "Solution",
             "request": "launch",
             "mainClass": "Solution",

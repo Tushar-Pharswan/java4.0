@@ -22,7 +22,7 @@ public class largest_no {
             }
         }
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] != secondMax) {
+            if (arr[i] != secondMax && arr[i] != max) {
                 if (thirdMax < arr[i]) {
                     thirdMax = arr[i];
                 }

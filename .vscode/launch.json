@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
+            "name": "xyz",
+            "request": "launch",
+            "mainClass": "xyz",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
+            "name": "ArraySum",
+            "request": "launch",
+            "mainClass": "ArraySum",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
+            "name": "SubsetSum",
+            "request": "launch",
+            "mainClass": "SubsetSum",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
+            "name": "RecursionCount",
+            "request": "launch",
+            "mainClass": "RecursionCount",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
+            "name": "RecursionExample",
+            "request": "launch",
+            "mainClass": "RecursionExample",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
             "name": "largest_no",
             "request": "launch",
             "mainClass": "DSA.array.largest_no",

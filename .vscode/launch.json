@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "nBonaci",
+            "request": "launch",
+            "mainClass": "DSA.array.nBonaci",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
+            "name": "arraysortedYesNo",
+            "request": "launch",
+            "mainClass": "DSA.array.arraysortedYesNo",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
             "name": "barChart",
             "request": "launch",
             "mainClass": "DSA.array.barChart",

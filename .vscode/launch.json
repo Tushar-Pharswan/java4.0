@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "vector",
+            "request": "launch",
+            "mainClass": "collection_framework.vector",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
             "name": "pairSum",
             "request": "launch",
             "mainClass": "DSA.array.pairSum",

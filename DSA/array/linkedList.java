@@ -1,8 +1,26 @@
 package DSA.array;
 
-public class linkedList<T> {
-    private NodeA<T> start;
-    void insertingAtBeg(NodeA<T>node){
+public class linkedList{
+    Node head; // head of list 
+    
+    // Linked list Node. 
+    // This inner class is made static 
+    // so that main() can access it 
+    static class Node { 
+    
+        int data; 
+        Node next; 
+    
+        // Constructor 
+        Node(int d) 
+        { 
+            data = d; 
+            next = null; 
+        } 
+    } 
+    
+    private Node start;
+    void insertingAtBeg(Node node){
         //linked list is empty
         if(start==null){
             if(start==null){
@@ -14,7 +32,7 @@ public class linkedList<T> {
         }
     }
 
-    void insertingAtEnd(NodeA<T>node){
+    void insertingAtEnd(Node node){
         // If linked list is empty
         if(start==null){
             start=node;
@@ -25,7 +43,7 @@ public class linkedList<T> {
             start.next=node;
             return;
         }
-        NodeA<T> temp =start;
+        Node temp =start;
         while(temp.next !=null){
             temp= temp.next;
         }
@@ -33,11 +51,11 @@ public class linkedList<T> {
     }
 
     public static void main(String[] args) {
-        linkedList<Integer>obj = new linkedList<>();
-        obj.insertingAtBeg(new NodeA<>(2));
-        obj.insertingAtBeg(new NodeA<>(6));
-        obj.insertingAtBeg(new NodeA<>(8));
-        obj.insertingAtBeg(new NodeA<>(10));
+        linkedList obj = new linkedList ();
+        obj.insertingAtBeg(new Node(2));
+        obj.insertingAtBeg(new Node(6));
+        obj.insertingAtBeg(new Node(8));
+        obj.insertingAtBeg(new Node(10));
         obj.print();
     }
     

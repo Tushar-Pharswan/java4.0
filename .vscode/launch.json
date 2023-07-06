@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pairSum",
+            "request": "launch",
+            "mainClass": "DSA.array.pairSum",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
+            "name": "reverse",
+            "request": "launch",
+            "mainClass": "DSA.array.reverse",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
             "name": "nBonaci",
             "request": "launch",
             "mainClass": "DSA.array.nBonaci",

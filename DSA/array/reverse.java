@@ -1,4 +1,4 @@
-package DSA.backtracking;
+package DSA.array;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
@@ -20,7 +20,7 @@ public class reverse {
         for(int i=0; i<arr.length/2; i++){
             int temp = arr[i];
             arr[i] = arr[n];
-            System.out.println(Arrays.toString(arr));
+            // System.out.println(Arrays.toString(arr));
             arr[n] = temp;
             
             n--;

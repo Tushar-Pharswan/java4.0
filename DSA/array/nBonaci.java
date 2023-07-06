@@ -22,7 +22,7 @@ public class nBonaci {
             start++;
         } 
         for (int e:arr){
-            System.out.println(e + ",");
+            System.out.print(e + ",");
         }
     }
 }

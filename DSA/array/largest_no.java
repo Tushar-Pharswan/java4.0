@@ -3,6 +3,7 @@ package DSA.array;
 public class largest_no {
     public static void main(String[] args) {
         int arr[] = { 1, 2, 3, 8, 4, 9, 3, 5 };
+        int index=0;
         int max = arr[0];
         int secondMax = arr[0];
         int thirdMax = arr[0];
@@ -10,6 +11,7 @@ public class largest_no {
         for (int i = 0; i < arr.length; i++) {
             if (max < arr[i]) {
                 max = arr[i];
+                index=i;
             }
 
         }
@@ -30,6 +32,7 @@ public class largest_no {
         }
 
         System.out.println(max);
+        System.out.println(index);
         System.out.println(secondMax);
         System.out.println(thirdMax);
 

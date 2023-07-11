@@ -17,24 +17,17 @@ public class reverse {
         //reversing
         int n =arr.length-1;
 
-        for(int i=0; i<arr.length/2; i++){
-            int temp = arr[i];
-            arr[i] = arr[n];
+        // for(int i=0; i<arr.length/2; i++){
+        //     int temp = arr[i];
+        //     arr[i] = arr[n];
+        //     // System.out.println(Arrays.toString(arr));
+        //     arr[n] = temp;
+            
+        //     n--;
+        int temp = arr[0];
+            arr[0] = arr[n];
             // System.out.println(Arrays.toString(arr));
             arr[n] = temp;
-            
-            n--;
-        }
-
-        // int start = 0, end = arr.length-1;
-
-        // while(start < end){
-        //     int temp = arr[start];
-        //     arr[start] = arr[end];
-        //     arr[end] = temp;
-        //     start++; end--;
-        // }
-
         System.out.println(Arrays.toString(arr));
     }
 

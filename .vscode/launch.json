@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ToeplitzMatrix",
+            "request": "launch",
+            "mainClass": "DSA.array.ToeplitzMatrix",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
             "name": "leftRotation",
             "request": "launch",
             "mainClass": "DSA.array.leftRotation",

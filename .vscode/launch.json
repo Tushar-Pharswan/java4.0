@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Transpose",
+            "request": "launch",
+            "mainClass": "Arrays2D.Transpose",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
             "name": "ToeplitzMatrix",
             "request": "launch",
             "mainClass": "DSA.array.ToeplitzMatrix",

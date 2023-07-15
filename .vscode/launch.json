@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LuckyNUmberInAMatrix",
+            "request": "launch",
+            "mainClass": "Arrays2D.LuckyNUmberInAMatrix",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
+            "name": "SubArrayProduct",
+            "request": "launch",
+            "mainClass": "DSA.array.SubArrayProduct",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
             "name": "Transpose",
             "request": "launch",
             "mainClass": "Arrays2D.Transpose",

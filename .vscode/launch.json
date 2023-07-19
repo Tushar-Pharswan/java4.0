@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "arraylist",
+            "request": "launch",
+            "mainClass": "collection_framework.arraylist",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
+            "name": "SetMatrixZeroesQ73",
+            "request": "launch",
+            "mainClass": "DSA.Sheet.Day1Arrays.SetMatrixZeroesQ73",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
             "name": "LuckyNUmberInAMatrix",
             "request": "launch",
             "mainClass": "Arrays2D.LuckyNUmberInAMatrix",

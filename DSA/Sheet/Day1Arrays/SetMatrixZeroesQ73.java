@@ -2,8 +2,79 @@ package DSA.Sheet.Day1Arrays;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+
+//custom class for optimized 
+class pairr {
+    int row;
+    int col;
+
+    public pairr(int row, int col) {
+        this.row = row;
+        this.col = col;
+    }
+}
 
 public class SetMatrixZeroesQ73 {
+
+    //optimized
+
+    public static int [][]setZero(int matrix[][]){
+         // Find the zero elements and store their indices in the custom Pair class.
+         List<pairr> zeroIndices = new ArrayList<>();
+         for(int i= 0 ; i<matrix.length;i++){
+             for(int j = 0 ; j<matrix[0].length;j++){
+                 if(matrix[i][j]==0){
+                     zeroIndices.add(new pairr(i,j));
+                 }
+             }
+         }
+        // Set entire row and column to zero based on the stored indices.
+
+         for (pairr pair : zeroIndices) {
+            int row = pair.row;
+            int col = pair.col;
+
+            // Set entire row to zero.
+            for (int j = 0; j <matrix[0].length; j++) {
+                matrix[row][j] = 0;
+            }
+
+            // Set entire column to zero.
+            for (int i = 0; i < matrix.length; i++) {
+                matrix[i][col] = 0;
+            }
+        }
+
+         return matrix;
+     }
+     public static void main(String[] args) {
+        int matrix[][]={
+            {1,1,1},
+            {1,0,1},
+            {1,1,1}
+        };
+
+        int [][] finalMatrix = setZero(matrix);
+
+        // idhr finalMatrix [][] (shreyshi ko he aayega ye "zero") 2d array hai
+        // use  hum single  row[] array bna re
+        // or fhir use hum normal integer bna re   1 0 1   0 0 0  1 0 1 
+        for (int[] row : finalMatrix) {
+            for (int num : row) {
+                System.out.print(num + " ");
+            }
+            System.out.println();
+        }
+    }
+    }
+
+
+
+    //Brute force
+    
+    /* 
+    
     static void markRow(ArrayList<ArrayList<Integer>> matrix, int n, int m, int i) {
         // set all non-zero elements as -1 in the row i:
         for (int j = 0; j < m; j++) {
@@ -63,4 +134,8 @@ public class SetMatrixZeroesQ73 {
             System.out.println();
         }
     }
-}
+
+    */
+
+
+//}

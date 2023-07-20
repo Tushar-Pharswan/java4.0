@@ -1,5 +1,10 @@
 package Arrays2D;
 
+//optimized
+
+
+
+//Brute force
 public class ArraysRowColMajor {
     public static void main(String[] args) {
         int x[][] = {

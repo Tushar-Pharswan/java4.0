@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PascalsTriangleQ118",
+            "request": "launch",
+            "mainClass": "DSA.Sheet.Day1Arrays.PascalsTriangleQ118",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
             "name": "rough",
             "request": "launch",
             "mainClass": "DSA.Sheet.Day1Arrays.rough",

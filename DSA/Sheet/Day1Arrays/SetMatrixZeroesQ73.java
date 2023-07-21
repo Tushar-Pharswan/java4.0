@@ -10,7 +10,7 @@ class pairr {
     int col;
 
     public pairr(int row, int col) {
-        this.row = row;
+        this.row=row;
         this.col = col;
     }
 }

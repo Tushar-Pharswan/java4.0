@@ -2,7 +2,14 @@ package DSA.Sheet.Day1Arrays;
 
 public class PascalsTriangleQ118 {
 
-    // variation 2
+    // variation
+
+    
+
+
+     // variation 2
+
+    /* 
 
     //Given the row number n. Print the n-th row of Pascal’s triangle.
 
@@ -16,20 +23,18 @@ public class PascalsTriangleQ118 {
             res = res/j;
             System.out.print (res + " ");
         }
-        System.out.println();
+        System.out.println(); 
+    }
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
             int n = 5;
             pascalTriangle(n);
         }
-    }
 
 
-
-
+    */
+        // variation 1
     /* 
-
-    // variation 1
 
     //In this case, we are given the row number r and the column number c, and we need to find out the element at position (r,c). 
     

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StockBuyAndSell",
+            "request": "launch",
+            "mainClass": "DSA.Sheet.Day1Arrays.StockBuyAndSell",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
+            "name": "KadanesAlgorithmQ53",
+            "request": "launch",
+            "mainClass": "DSA.Sheet.Day1Arrays.KadanesAlgorithmQ53",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
             "name": "PascalsTriangleQ118",
             "request": "launch",
             "mainClass": "DSA.Sheet.Day1Arrays.PascalsTriangleQ118",

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SortAnArrayOf0s1sand2sQ75",
+            "request": "launch",
+            "mainClass": "DSA.Sheet.Day1Arrays.SortAnArrayOf0s1sand2sQ75",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
             "name": "StockBuyAndSell",
             "request": "launch",
             "mainClass": "DSA.Sheet.Day1Arrays.StockBuyAndSell",

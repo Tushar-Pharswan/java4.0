@@ -1,6 +1,6 @@
 package DSA.Sheet.Day1Arrays;
 
-public class StockBuyAndSell {
+public class StockBuyAndSellQ121 {
 
     // optimal
     static int maxProfit(int[] arr) {

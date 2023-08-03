@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pow_x_n_Q50",
+            "request": "launch",
+            "mainClass": "DSA.Sheet.Day3Arrays.pow_x_n_Q50",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
+            "name": "countOccurance",
+            "request": "launch",
+            "mainClass": "DSA.recursion.countOccurance",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
             "name": "FindTheDuplicateInAnArrayOfNplus1integers",
             "request": "launch",
             "mainClass": "DSA.Sheet.Day2ArraysPart2.FindTheDuplicateInAnArrayOfNplus1integers",

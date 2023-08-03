@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindTheDuplicateInAnArrayOfNplus1integers",
+            "request": "launch",
+            "mainClass": "DSA.Sheet.Day2ArraysPart2.FindTheDuplicateInAnArrayOfNplus1integers",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
+            "name": "P6_StockBuyAndSellQ121",
+            "request": "launch",
+            "mainClass": "DSA.Sheet.Day1Arrays.P6_StockBuyAndSellQ121",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
+            "name": "P5_SortAnArrayOf0s1sand2sQ75",
+            "request": "launch",
+            "mainClass": "DSA.Sheet.Day1Arrays.P5_SortAnArrayOf0s1sand2sQ75",
+            "projectName": "java4.0_f95a0369"
+        },
+        {
+            "type": "java",
             "name": "SortAnArrayOf0s1sand2sQ75",
             "request": "launch",
             "mainClass": "DSA.Sheet.Day1Arrays.SortAnArrayOf0s1sand2sQ75",

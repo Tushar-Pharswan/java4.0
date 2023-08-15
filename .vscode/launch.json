@@ -6,6 +6,7 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "pow_x_n_Q50",
             "request": "launch",
             "mainClass": "DSA.Sheet.Day3Arrays.pow_x_n_Q50",
@@ -13,6 +14,8 @@
         },
         {
             "type": "java",
+=======
+>>>>>>> bdc0a54f54b2052bcb52ce8bfc9dae02f5b3bfcf
             "name": "countOccurance",
             "request": "launch",
             "mainClass": "DSA.recursion.countOccurance",

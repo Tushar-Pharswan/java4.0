@@ -1,20 +1,36 @@
-import java.util.List;
 
-class Solution {
-    public List<List<Integer>> generate(int numRows) {
-        for (int i = 1; i < numRows+1; i++) {
-            long res = 1;
-            System.out.print(res + " ");
-            for (int j = 1; j <= i+1; j++) {
-                res = res * (i - j);
-                res = res / j;
-                if(res==0){
-                    System.out.println();
-                }
-                else{
-                    System.out.print(res + " ");
-                }
+import java.util.*;
+
+class GFG {
+
+    public static int maxWeightCell(int N, List<Integer> Edge) {
+
+        int[] temp = new int[N];
+
+        for (int i = 0; i < N; i++) {
+
+            if (Edge.get(i) != -1) {
+
+                temp[Edge.get(i)] += i;
             }
         }
+
+        int ans = 0;
+        int max = Integer.MIN_VALUE;
+        for (int i = 0; i < N; i++) {
+            if (temp[i] > max) {
+                ans = i;
+                max = temp[i];
+            }
+        }
+        return ans;
+    }
+
+    public static void main(String[] args) {
+
+        int N = 4;
+        List<Integer> Edge = Arrays.asList(2, 0, -1, 2);
+
+        System.out.println(maxWeightCell(N, Edge));
     }
 }

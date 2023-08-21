@@ -16,6 +16,5 @@ public class Linked_list {
         while(it.hasNext()){
             System.out.println("Itrating "+it.next());
         }
-    }
-    
+    }   
 }

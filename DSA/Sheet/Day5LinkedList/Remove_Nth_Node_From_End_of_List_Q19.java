@@ -1,0 +1,42 @@
+package DSA.Sheet.Day5LinkedList;
+
+public class Remove_Nth_Node_From_End_of_List_Q19 {
+    public class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode() {
+        }
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
+    }
+
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+
+        if(head.next==null){
+            return null;
+        }
+        ListNode temp = new ListNode();
+        temp.next = head;
+        ListNode fast = temp;
+        ListNode slow = temp;
+        for (int i = 1; i<=n; ++i)
+            fast = fast.next;
+
+            while(fast.next != null)
+            {
+                fast = fast.next;
+                slow = slow.next;
+            }
+            slow.next = slow.next.next;
+
+            return temp.next;
+    }
+}

@@ -91,6 +91,17 @@ public class Reverse_Linked_ListQ206 {
         System.out.println("NULL");
     }
 
+    public Node reverseRecursive(Node head){
+        if (head==null || head.next==null){
+            return head;
+        }
+        Node newHead = reverseRecursive(head.next);
+        head.next.next=head;
+        head.next=null;
+
+        return newHead;
+    }
+
 
     public static void main(String[] args) {
         Reverse_Linked_ListQ206 list = new Reverse_Linked_ListQ206();
@@ -101,6 +112,9 @@ public class Reverse_Linked_ListQ206 {
         list.printing();
 
         list.reverseIterator();
+        list.printing();
+
+        list.head = list.reverseRecursive(list.head);
         list.printing();
     }
 }
